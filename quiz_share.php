@@ -214,12 +214,12 @@ else
 			<i class="fa fa-tasks" style="font-size:22px; margin-top: 4px; margin-left: 0%;  color: #1a75ff;"></i><span class="heading2" style="line-height: 2px; font-size: 14px; text-align: left;">&nbsp; Your friends will try to match your answers & get a score out of 10.</span>
 		<br><br>
 		<div class="question-no-box" style="margin-left: 0%;">Your Quiz Link<br><br></div>
-		<input type="text" name="quiz_link" class="form-control heading3" id="myInput" value="https://grandrisingquiz.com/user-dashboard.php?quiz_id=<?php echo $email; ?>" style="margin-top: -3.8%; padding:6%; border-radius: 16px 16px 16px 16px;">
+		<input type="text" name="quiz_link" class="form-control heading3" id="myInput" value="http://localhost/fb_quiz/user-dashboard.php?quiz_id=<?php echo $email; ?>" style="margin-top: -3.8%; padding:6%; border-radius: 16px 16px 16px 16px;">
 		<button onclick="myFunction()" class="btn btn-default" style="color: White; margin-left: 68.9%; margin-top: 1%; background-color: #193367;">Copy Link</button>
 		
 
 		<!-- Sharingbutton Facebook -->
-	<div class="fb-share-button" data-href="https://grandrisingquiz.com/user-dashboard.php?quiz_id=<?php echo $email; ?>=" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgrandrisingquiz.com%2Fuser-dashboard.php%3Fquiz_id%3D<?php echo $email; ?>%253D&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div> 
+	<div class="fb-share-button" data-href="http://localhost/fb_quiz/user-dashboard.php?quiz_id=<?php echo $email; ?>=" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgrandrisingquiz.com%2Fuser-dashboard.php%3Fquiz_id%3D<?php echo $email; ?>%253D&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div> 
 
 
 		<br><br>
