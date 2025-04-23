@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+
+
+
+.radio-hide{
+	display: none;
+}
+
+.radio-hide:checked + .label-text{
+	transition: all 0.2s;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	color: white;
+	background-color: rgba(0,0,0,0.25);
+}
+.progress{
+	width: 50%;
+	margin: 50px auto;
+	height: 35px;
+	padding: 4px;
+	background-color: rgba(0,0,0,0.25);
+	border-radius: 5px;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.25), 0px 1px rgba(255,255,255,0.08);
+}
+.progress-bar{
+	height: 100%;
+	border-radius: 4px;
+	transition: all 0.5s linear;
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.3),rgba(255,255,255,0.05));
+	transition-property: width, background-color;
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25), inset 0px 1px rgba(255,255,255,0.1);
+}
+
+#one:checked ~ .progress > .progress-bar{
+	width: 10%;
+	background-color: #FB0036;
+}
+
+#two:checked ~ .progress > .progress-bar{
+	width: 25%;
+	background-color: #FF5F00;
+}
+
+#three:checked ~ .progress > .progress-bar{
+	width: 50%;
+	background-color: #F8FF00;
+}
+
+#four:checked ~ .progress > .progress-bar{
+	width: 75%;
+	background-color: #00FF05;
+}
+
+#five:checked ~ .progress > .progress-bar{
+	width: 100%;
+	background-color: #0084FF;
+}
+
+@keyframes text_ani{
+	0%{
+		text-shadow: 0px 0px 3px white;	
+	}
+	20%{
+		text-shadow: 0px 0px 3px #FB0036;	
+	}
+	40%{
+		text-shadow: 0px 0px 3px #FF5F00;	
+	}
+	60%{
+		text-shadow: 0px 0px 3px #F8FF00;	
+	}
+	80%{
+		text-shadow: 0px 0px 3px #00FF05;	
+	}
+	100%{
+		text-shadow: 0px 0px 3px #0084FF;	
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
